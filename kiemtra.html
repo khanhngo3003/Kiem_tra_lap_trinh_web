@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Title</title>
+    <style>
+        /* CSS để thu nhỏ ảnh và căn giữa */
+        header {
+            text-align: center; /* Canh giữa nội dung */
+        }
+        img {
+            width: 50px; /* Điều chỉnh kích thước ảnh */
+            height: auto; /* Giữ tỷ lệ khung hình */
+            margin-left: 10px; /* Khoảng cách từ ảnh đến chữ */
+        }
+        h1 {
+            font-size: 24px; /* Kích thước chữ của tiêu đề */
+            margin-top: 10px; /* Lùi chữ lên trên */
+        }
+        .big-number {
+            font-size: 200px; /* Kích thước chữ của số lớn */
+            position: relative; /* Đặt vị trí tương đối */
+            top: -40px; /* Dịch chữ lên trên */
+        }
+        .unit {
+            font-size: 70px; /* Kích thước chữ của đơn vị */
+            position: relative; /* Đặt vị trí tương đối */
+            top: -110px; /* Dịch chữ lên trên */
+        }
+        .speed-icon {
+            vertical-align: middle; /* Căn chỉnh đứng giữa */
+            margin-left: -130px; /* Dịch ảnh sang trái */
+            position: relative; /* Đặt vị trí tương đối */
+            top: -70px; /* Dịch ảnh lên trên */
+            width: 30px; /* Thu nhỏ chiều rộng của ảnh */
+            height: auto; /* Giữ tỷ lệ khung hình */
+        }
+        p3 {
+            border: 2px solid #ccc; /* Đường viền của khung */
+            padding: 5px; /* Khoảng cách bên trong khung */
+            border-radius: 5px; /* Bo tròn góc của khung */
+            display: inline-block; /* Hiển thị như một khối nhỏ */
+        }
+        .english-text {
+            position: fixed; /* Đặt vị trí cố định */
+            top: 10px; /* Khoảng cách từ trên xuống */
+            right: 10px; /* Khoảng cách từ phải sang trái */
+            font-size: 16px; /* Kích thước chữ */
+            color: #333; /* Màu chữ */
+        }
+        .privacy {
+            margin-left: 10px; /* Khoảng cách từ trái sang phải */
+        }
+        .bottom-right-img {
+            position: fixed; /* Đặt vị trí cố định */
+            bottom: 10px; /* Khoảng cách từ dưới lên */
+            right: 10px; /* Khoảng cách từ phải sang trái */
+            width: 50px; /* Điều chỉnh kích thước ảnh */
+            height: auto; /* Giữ tỷ lệ khung hình */
+        }
+        .powered-by {
+            position: fixed; /* Đặt vị trí cố định */
+            bottom: 30px; /* Khoảng cách từ dưới lên */
+            right: 70px; /* Khoảng cách từ phải sang trái */
+            font-size: 12px; /* Kích thước chữ */
+            color: #333; /* Màu chữ */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://inkythuatso.com/uploads/thumbnails/800/2021/12/ptit-logo-inkythuatso-17-14-54-16.jpg">
+        <h1>Tốc độ Internet của bạn là</h1>
+        <p><span class="big-number">200</span><span class="unit"><sup><b>Mb/giây</b></sup></span><img class="speed-icon" src="https://th.bing.com/th/id/OIP.ujkuXUly4O473ntgmHplDQAAAA?w=345&h=320&rs=1&pid=ImgDetMain" alt="Speed icon"></p>
+        <p3>Hiển thị thêm thông tin</p3>
+        <!-- Other header content goes here -->
+    </header>
+
+    <!-- English text -->
+    <div class="english-text">Tiếng Anh(Mỹ)<sup>V</sup><span class="privacy">Sự riêng tư</span></div>
+
+    <!-- Bottom right image -->
+    <img class="bottom-right-img" src="https://inkythuatso.com/uploads/thumbnails/800/2021/12/ptit-logo-inkythuatso-17-14-54-16.jpg" alt="Bottom right image">
+    <div class="powered-by">POWERED BY</div>
+
+</body>
+</html>
